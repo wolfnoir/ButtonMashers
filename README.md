@@ -17,3 +17,11 @@ and vice versa for Player 2. In 'hard mode', players will need to fight over the
 * Feedback:
 Please send feedback to: tian-xin.brown@stonybrook.edu.
 Thank you!
+
+All assets are royalty-free or self-created.
+Great Boss - https://opengameart.org/content/great-boss
+Arcade Music Loop - https://freesound.org/people/joshuaempyre/sounds/251461/
+Victory - https://opengameart.org/content/victory
+Hit_03 - https://freesound.org/people/LittleRobotSoundFactory/sounds/270332/
+Text-To-Speech -  https://simulationcorner.net/index.php?page=sam
+Game startup Sound - https://www.zapsplat.com/
