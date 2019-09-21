@@ -17,13 +17,12 @@ RED_END = (200, 300)
 BLUE_END = (1300, 300)
 # Other constants.
 FRAMES_PER_SECOND = 60
-WIN_NUMBER = 10
+WIN_NUMBER = 50
 # Colors.
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
 BLUE = (0, 0, 255)
-GREEN = (0, 255, 0)
 # Counter for scores of players
 p1Counter = 0
 p2Counter = 0
