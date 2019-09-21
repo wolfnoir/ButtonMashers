@@ -42,9 +42,9 @@ pg.display.set_caption('ButtonMashers - an SBUHacks Game')
 screen = pg.display.set_mode((0, 0), pg.FULLSCREEN)
 clock = pg.time.Clock()
 gameFont = pg.font.SysFont('Roboto Black', 42)
-winConditionFont = pg.font.SysFont('friday13', 48)
+winConditionFont = pg.font.SysFont('Friday13', 48)
 roundOverFont = pg.font.SysFont('Impact', 120)
-countdownFont = pg.font.SysFont('friday13', 100)
+countdownFont = pg.font.SysFont('Friday13', 100)
 
 # Load images.
 # Load background images such as the title screen, main background, and victory screens.
@@ -98,7 +98,7 @@ pg.time.set_timer(pg.USEREVENT+1, 50)
 screenIntensity = 200
 
 # Declare Win condition counter.
-winCondition = str(WIN_NUMBER) + " Points to Win"
+winCondition = "Fifty Points to Win"
 
 # Main event loop:
 while True:
@@ -184,8 +184,8 @@ while True:
 						screen.blit(gameFont.render(str(p1Counter), True, BLACK), (380, 200))
 						screen.blit(gameFont.render(str(chr(p2Key)).upper(), True, BLUE), (1395, 200))
 						screen.blit(gameFont.render(str(p2Counter), True, BLACK), (1520, 200))
-						screen.blit(winConditionFont.render(winCondition, True, BLACK), (817, 152))
-						screen.blit(winConditionFont.render(winCondition, True, WHITE), (815, 150))
+						screen.blit(winConditionFont.render(winCondition, True, BLACK), (802, 152))
+						screen.blit(winConditionFont.render(winCondition, True, WHITE), (800, 150))
 
 						screen.blit(countdownFont.render("3...2...1...START!", True, BLACK), (707, 242))
 						screen.blit(countdownFont.render("3...2...1...START!", True, RED), (705, 240))
@@ -226,8 +226,8 @@ while True:
 						screen.blit(gameFont.render(str(p1Counter), True, BLACK), (380, 200))
 						screen.blit(gameFont.render(str(chr(p2Key)).upper(), True, BLUE), (1395, 200))
 						screen.blit(gameFont.render(str(p2Counter), True, BLACK), (1520, 200))
-						screen.blit(winConditionFont.render(winCondition, True, BLACK), (817, 152))
-						screen.blit(winConditionFont.render(winCondition, True, WHITE), (815, 150))
+						screen.blit(winConditionFont.render(winCondition, True, BLACK), (802, 152))
+						screen.blit(winConditionFont.render(winCondition, True, WHITE), (800, 150))
 
 						#checks to see if win condition is true
 						if p1Counter == WIN_NUMBER:
@@ -260,8 +260,8 @@ while True:
 									screen.blit(gameFont.render(str(p1Counter), True, BLACK), (380, 200))
 									screen.blit(gameFont.render(str(chr(p2Key)).upper(), True, BLUE), (1395, 200))
 									screen.blit(gameFont.render(str(p2Counter), True, BLACK), (1520, 200))
-									screen.blit(winConditionFont.render(winCondition, True, BLACK), (817, 152))
-									screen.blit(winConditionFont.render(winCondition, True, WHITE), (815, 150))
+									screen.blit(winConditionFont.render(winCondition, True, BLACK), (802, 152))
+									screen.blit(winConditionFont.render(winCondition, True, WHITE), (800, 150))
 
 									p1Counter += 1
 									if hardMode:
