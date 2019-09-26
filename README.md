@@ -1,5 +1,5 @@
 # ButtonMashers
-# By: Tian Brown, Everett Yang, and Peter Zeng
+# By: Tian Brown, Amber (Everett) Yang, and Peter Zeng
 SBUHacks 2019
 
 * Installation:
